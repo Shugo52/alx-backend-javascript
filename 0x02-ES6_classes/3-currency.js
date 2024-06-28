@@ -5,7 +5,7 @@ export default class Currency {
   }
 
   get code() {
-    this._code = code;
+    return this._code;
   }
 
   set code(codeSet) {
